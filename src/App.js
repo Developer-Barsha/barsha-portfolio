@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import PortfolioDetail from './Components/PortfolioDetail/PortfolioDetail';
+import Blogs from './Components/Blogs';
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme'));
@@ -17,6 +18,7 @@ function App() {
       <Navbar setTheme={setTheme} />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/blogs' element={<Blogs />} />
         <Route path='/project/:id' element={<PortfolioDetail />} />
       </Routes>
       <Footer />
