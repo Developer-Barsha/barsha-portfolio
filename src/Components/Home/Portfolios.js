@@ -18,6 +18,7 @@ const Portfolios = () => {
                 image: demoPortfolio,
                 name: 'Demo Portfolio',
                 tools: 'HTML, CSS, Javascript',
+                description:"0",
                 code: 'https://github.com/Developer-Barsha/demo-portfolio',
                 link: 'https://developer-barsha.netlify.app/'
             },

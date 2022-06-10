@@ -33,7 +33,7 @@ const Contact = () => {
     return (
         <section id='contact' className='py-5 flex lg:flex-row flex-col lg:px-12 my-5 px-5 items-center'>
             <div className='lg:w-1/2 w-full mx-auto'>
-                <img src="https://cdn.dribbble.com/users/2069369/screenshots/4276636/call_center.gif" alt="" className='w-full mx-auto' />
+                <img data-aos="flip-left" src="https://cdn.dribbble.com/users/2069369/screenshots/4276636/call_center.gif" alt="" className='w-full mx-auto' />
             </div>
             <div className='lg:w-1/2 w-full mx-auto'>
                 <form ref={form} onSubmit={sendEmail} className='w-11/12 flex flex-col gap-2 mx-auto'>

@@ -4,28 +4,28 @@ import './Gallery.css'
 const Gallery = () => {
     return (
         <section id='gallery'>
-            <h1 className="text-4xl text-center font-bold mt-12 mb-6">Gallery</h1>
+            <h1 className="text-4xl text-center font-bold mt-12 mb-6">Photo Gallery</h1>
 
             <div className='flex galleries justify-center gap-3 px-5'>
                 <div className='flex flex-col gap-3 galleries-part'>
                     <div className='long-img flex justify-center gap-3'>
-                        <img src="https://i.pinimg.com/originals/16/71/df/1671df65ef77e4b5d651f9b9b8f84b64.jpg" alt="" />
-                        <img src="https://i.pinimg.com/originals/14/b1/74/14b174b835a6bdf5caaf4194a3dcb90b.jpg" alt="" />
+                        <img data-aos="zoom-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png" alt="" />
+                        <img data-aos="zoom-out" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYlEA6Vsz0fqBzwPvPnhncrBwAXizgKMXqSNQmLLctUOtagnhT9U2b9zWAAvFBo4jfAYA&usqp=CAU" alt="" />
                     </div>
-                    <div className='short-img flex justify-center'>
-                        <img src="https://wallpapers.com/images/high/aesthetic-cottagecore-white-flowers-4041o61g5dypdbt6.jpg" alt="" />
+                    <div data-aos="zoom-in-up" className='short-img flex justify-center'>
+                        <img src="https://tailwindcss.com/_next/static/media/social-card-large.f6878fd8df804f73ba3f1a271122105a.jpg" alt="" />
                     </div>
                 </div>
 
                 <div className='flex flex-col gap-3 galleries-part'>
-                    <div className='short-img flex justify-center'>
-                        <img src="https://images.wallpaperscraft.com/image/single/daisies_flowers_flowerbed_109298_3840x2400.jpg" alt="" />
+                    <div data-aos="zoom-in-down" className='short-img flex justify-center'>
+                        <img src="https://i.morioh.com/6041892b0c.png" alt="" />
                     </div>
 
                     <div className='long-img flex justify-center gap-3'>
-                        <img src="https://images.unsplash.com/photo-1596542519315-6db93bdf7548?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWVzdGhldGljJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="" />
+                        <img data-aos="zoom-in-left" src="https://iconape.com/wp-content/files/zk/93042/svg/react.svg" alt="" />
 
-                        <img src="https://www.wallpapersun.com/wp-content/uploads/2021/09/cottagecore-wallpapersun-11-715x1285.jpg" alt="" />
+                        <img data-aos="fade-up" data-aos-duration="2500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfZxVauwvK9ORMtJaQf1oRvmaZhAHhx3feXyaleyiYd3Q3BnFrtqAvkN9K2F069mfwEFQ&usqp=CAU" alt="" />
                     </div>
                 </div>
             </div>

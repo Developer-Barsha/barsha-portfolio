@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div id='skills' className='grid py-5 text-white bg-neutral lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 lg:px-12 px-5 my-10'>
+        <div id='skills' className='grid bg-skills-bg bg-cover bg-no-repeat py-5 text-white lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 lg:px-12 px-5 my-10'>
 
             <div className='flex flex-col gap-2 p-6 text-white'>
                 <h4 className='text-2xl pb-2 font-bold text-secondary'>Front-End</h4>

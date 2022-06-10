@@ -40,7 +40,11 @@ module.exports = {
   // pink deep : #f73696
   // pink bright: #f959a7
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'skills-bg': "url('https://64.media.tumblr.com/5d78b70adeaa28df3adf9b071fee5321/tumblr_pp7catg2X31w5tjdn_500.gifv')"
+      }
+    }
   },
   plugins: [require("daisyui")],
 } 
