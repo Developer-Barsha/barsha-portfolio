@@ -10,7 +10,7 @@ function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme'));
 
   return (
-    <div id='app' data-theme={theme}>
+    <div className='App' data-theme={theme}>
       <Navbar setTheme={setTheme} />
       <ToastContainer />
       <Home />

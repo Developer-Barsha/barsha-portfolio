@@ -20,10 +20,10 @@ const Footer = () => {
                     <a href='#skills' className="link link-hover">Skills</a>
                 </div>
             </footer>
-            <footer className="footer items-center px-4 py-3 border-y">
-                <div className="items-center grid-flow-col">
+            <footer className="footer items-center justify-center px-4 py-3 border-y">
+                {/* <div className="items-center grid-flow-col"> */}
                     <p>Copyright © 2022 - Developer Barsha- All right reserved</p>
-                </div>
+                {/* </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                     <ul className='social flex gap-5'>
                         <li><a target='blank' href="https://www.linkedin.com/in/programmer-barsha/"><i className="fa-brands fa-linkedin-in"></i></a></li>
@@ -31,7 +31,7 @@ const Footer = () => {
                         <li><a target='blank' href="/"><i className="fa-brands fa-github"></i></a></li>
                         <li><a target='blank' href="/"><i className="fa-brands fa-youtube"></i></a></li>
                     </ul>
-                </div>
+                </div> */}
             </footer>
         </div>
     );

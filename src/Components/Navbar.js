@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css'
 
-const Navbar = ({setTheme}) => {
+const Navbar = ({ setTheme }) => {
     const themeToggle = () => {
         if (localStorage.getItem('theme') === null) {
             localStorage.setItem('theme', "dark");
@@ -25,6 +25,7 @@ const Navbar = ({setTheme}) => {
         <li><a href='#skills'>Skills</a></li>
         <li><a href='#services'>Services</a></li>
         <li><a href='#gallery'>Gallery</a></li>
+        <a href="#contact" className='bg-secondary flex items-center justify-center px-2 rounded-lg hover:bg-primary my-2 text-white'>Contact</a>
         <li>
             <label className="swap swap-rotate">
                 <input type="checkbox" onClick={themeToggle} />
@@ -37,7 +38,7 @@ const Navbar = ({setTheme}) => {
 
     return (
         <div className='relative' style={{ zIndex: 1000 }}>
-            <div className={`navbar bg-accent ${localStorage.getItem('theme')==='light' ? 'text-black' : 'text-white'} font-semibold lg:px-16 px-3 fixed`}>
+            <div className={`navbar bg-accent ${localStorage.getItem('theme') === 'light' ? 'text-black' : 'text-white'} lg:px-16 px-3 fixed`}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -49,14 +50,14 @@ const Navbar = ({setTheme}) => {
                     </div>
                     <a className="btn btn-ghost font-bold text-xl">D.<span className='text-primary uppercase'>Barsha</span> </a>
                 </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal p-0">
+                <div className="navbar-end hidden lg:flex">
+                    <ul className="menu menu-horizontal p-0 gap-2">
                         {menu}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a href="#contact" className='btn'>Contact</a>
-                </div>
+                {/* <div className="navbar-end">
+                    <a href="#contact" className='btn btn-secondary text-white'>Contact</a>
+                </div> */}
             </div>
         </div>
     );
