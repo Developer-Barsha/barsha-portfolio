@@ -17,7 +17,7 @@ const PortfolioDetail = () => {
 
     return (
         <section className='pt-24 lg:px-16 px-5 py-10'>
-            <h1 className='font-bold text-warning text-3xl text-info pb-3'>Detail About: <span className='text-info'>{portfolio?.name}</span></h1>
+            <h1 className='font-bold text-warning text-3xl pb-3'>Detail About: <span className='text-info'>{portfolio?.name}</span></h1>
             <div className='flex items-center gap-8 lg:flex-row flex-col w-full'>
                 <div className='w-full lg:w-1/2 flex flex-col gap-3'>
                     <img className='rounded-lg mt-2 w-full border' src={portfolio?.image} alt="" />
