@@ -33,15 +33,15 @@ const Skills = () => {
                 </div>
                 <div className='flex items-center gap-2'>
                     <p className="font-bold w-24">MongoDB</p>
-                    <progress className="progress progress-error bg-white w-56 h-4" value="70" max="100"></progress>
+                    <progress className="progress progress-info bg-white w-56 h-4" value="70" max="100"></progress>
                 </div>
                 <div className='flex items-center gap-2'>
                     <p className="font-bold w-24">Firebase</p>
-                    <progress className="progress progress-info bg-white w-56 h-4" value="60" max="100"></progress>
+                    <progress className="progress progress-success bg-white w-56 h-4" value="60" max="100"></progress>
                 </div>
                 <div className='flex items-center gap-2'>
                     <p className="font-bold w-24">Node.js</p>
-                    <progress className="progress bg-white progress-secondary w-56 h-4" value="40" max="100"></progress>
+                    <progress className="progress bg-white progress-warning w-56 h-4" value="40" max="100"></progress>
                 </div>
             </div>
 
@@ -54,15 +54,15 @@ const Skills = () => {
                 </div>
                 <div className='flex items-center gap-2'>
                     <p className="font-bold w-24">Tailwind</p>
-                    <progress className="progress progress-accent bg-white w-56 h-4" value="76" max="100"></progress>
+                    <progress className="progress progress-secondary bg-white w-56 h-4" value="76" max="100"></progress>
                 </div>
                 <div className='flex items-center gap-2'>
                     <p className="font-bold w-24">Daisyui</p>
-                    <progress className="progress bg-white progress-primary w-56 h-4" value="72" max="100"></progress>
+                    <progress className="progress bg-white progress-warning w-56 h-4" value="72" max="100"></progress>
                 </div>
                 <div className='flex items-center gap-2'>
                     <p className="font-bold w-24">Express</p>
-                    <progress className="progress bg-white progress-secondary w-56 h-4" value="66" max="100"></progress>
+                    <progress className="progress bg-white progress-info w-56 h-4" value="66" max="100"></progress>
                 </div>
             </div>
         </div>

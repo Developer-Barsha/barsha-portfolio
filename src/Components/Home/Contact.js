@@ -36,7 +36,7 @@ const Contact = () => {
                 <img data-aos="flip-left" src="https://cdn.dribbble.com/users/2069369/screenshots/4276636/call_center.gif" alt="" className='w-full mx-auto' />
             </div>
             <div className='lg:w-1/2 w-full mx-auto'>
-                <form ref={form} onSubmit={sendEmail} className='w-11/12 flex flex-col gap-2 mx-auto'>
+                <form ref={form} onSubmit={sendEmail} className='w-11/12 text-black flex flex-col gap-2 mx-auto'>
                     <h2 className='text-4xl font-bold pb-3'>Contact Me</h2>
                     <input className='w-full' type="text" placeholder='Your Name' name="name" id="" />
                     <input className='w-full' type="email" placeholder='Your Email' name="email" id="" />
