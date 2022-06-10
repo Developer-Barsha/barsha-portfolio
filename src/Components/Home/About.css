@@ -1,0 +1,49 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.creative{
+    font-weight: 600;
+    position: relative;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: 0.3vw #000;
+    text-transform: uppercase;
+}
+
+.creative::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #000;
+    -webkit-text-stroke: 0vw #000;
+    border-right: 2px solid #000;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate{
+    0%, 10%, 100%{
+        width: 0;
+    }
+    70%, 90%{
+        width: 300px;
+    }
+}
+
+.my-btn{
+    width: 180px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #999;
+    border-radius: 5px;
+}
+
+.my-btn:hover{
+    background: linear-gradient(#8987f8, #7a77ff);
+    color: white;
+    transition: 0.5s;
+    transform:translateY(-5px);
+}
