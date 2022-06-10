@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/8Bw6z4V/1.png",
+        "full":"https://i.ibb.co/Y7S7zxs/screencapture-developer-barsha-netlify-app-2022-06-10-22-40-34.png",
+        "name": "Demo Portfolio",
+        "tools": "HTML, CSS, Javascript",
+        "description":"This is a demo portfolio website created using only HTML, CSS and JavaScript. This is a single page website. This website includes some animation, information about me, socail links, some projects of mine, contact me form. This website is fully responsive.",
+        "code": "https://github.com/Developer-Barsha/demo-portfolio",
+        "link": "https://developer-barsha.netlify.app/"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/nPdMbnt/3.png",
+        "full":"https://i.ibb.co/V925fXB/screencapture-red-onion-resturant-netlify-app-2022-06-10-22-42-21.png",
+        "name": "Red Onion",
+        "description":"An online restaurant website where users can buy foods. Users can add to cart and checkout. Users can not checkout until they login. Home navigator, cart implemented. This website is made using React, Tailwind, Css, Toastify and font awesome icons. This website is fully responsive.",
+        "tools": "React, CSS, React Router, Bootstrap",
+        "code": "https://github.com/Developer-Barsha/red-onion-restaurant",
+        "link": "https://red-onion-resturant.netlify.app/"
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/zXBZyK4/5.png",
+        "full":"https://i.ibb.co/WVtPbhb/screencapture-developer-barsha-github-io-dark-mode-practice-2022-06-10-22-42-40.png",
+        "name": "Dark Mode",
+        "description":"This is a practice website of Starbuck created using only HTML, CSS and JavaScript. This is a single page website. This website includes dark mode and light mode. This website is fully responsive.",
+        "tools": "HTML, CSS, Javascript",
+        "code": "https://github.com/Developer-Barsha/dark-practice",
+        "link": "https://developer-barsha.github.io/dark-mode-practice/"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/68kPWYL/7.png",
+        "full":"https://i.ibb.co/Q9dNBRx/screencapture-practice-grocery-store-netlify-app-2022-06-10-22-38-51.png",
+        "name": "Grocery Store",
+        "description":"This is a practice website created using only HTML, CSS and JavaScript. This website includes products. This website is fully responsive.",
+        "tools": "HTML, CSS, Javascript, Tailwind",
+        "code": "https://github.com/Developer-Barsha/grocery-practice",
+        "link": "https://practice-grocery-store.netlify.app/"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/MfG8g7d/6.png",
+        "name": "Bluewaves Hotel",
+        "full":"https://i.ibb.co/BcRvysQ/screencapture-bluewaves-plaza-hotel-netlify-app-2022-06-10-22-44-32.png",
+        "description":"This is a practice website created using only HTML, CSS and Bootstrap. This website is about hotel. This website is fully responsive.",
+        "tools": "HTML, CSS, Bootstrap",
+        "code": "https://github.com/Developer-Barsha/bluewaves-plaza-hotel",
+        "link": "https://bluewaves-plaza-hotel.netlify.app/"
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/SnL7HPS/8.png",
+        "full":"https://i.ibb.co/GP55944/screencapture-developer-barsha-github-io-restaurant-practice-2022-06-10-22-50-01.png",
+        "name": "Food Restaurant",
+        "description":"This is a practice website created using only HTML, CSS and Bootstrap. This website is an online reataurant website where users can see foods to order. This website is fully responsive.",
+        "tools": "HTML, CSS, Bootstrap",
+        "code": "https://github.com/Developer-Barsha/restaurant-practice",
+        "link": "https://developer-barsha.github.io/restaurant-practice/"
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/S5RNktp/9.png",
+        "full":"https://i.ibb.co/tQthLR5/screencapture-developer-barsha-github-io-penguin-fashion-2022-06-10-22-31-59.png",
+        "name": "Penguin Fashion",
+        "description":"This is a practice website created using only HTML, CSS and Bootstrap. This website is an online cloth store where users can see cloths to order. This website is fully responsive.",
+        "tools": "HTML, CSS, Bootstrap",
+        "code": "https://github.com/Developer-Barsha/penguin-fashion",
+        "link": "https://developer-barsha.github.io/penguin-fashion/"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/qBX4fV4/4.png",
+        "name": "Digital Clock",
+        "full":"https://i.ibb.co/hR7pRyv/screencapture-developer-barsha-github-io-digital-clock-2022-06-10-22-43-44.png",
+        "description":"This is a practice clock created using only HTML, CSS and JavaScript. This digital clock will show you real time based on your location. This website is fully responsive.",
+        "tools": "HTML, CSS, JavaScript",
+        "code": "https://github.com/Developer-Barsha/digital-clock",
+        "link": "https://developer-barsha.github.io/digital-clock/"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/gmNwydg/2.png",
+        "full":"https://i.ibb.co/0jDNd5d/screencapture-fruits-corner-netlify-app-2022-06-10-22-45-12.png",
+        "name": "Fruits Corner",
+        "description":"Warehouse management website where users can manage foods. Users can add, delete, update. This website is made using React, Tailwind, Css, Toastify, Heroku, MongoDB and font awesome icons. This website is fully responsive.",
+        "tools": "React, CSS, React Router, Tailwind, JWT, MongoDB",
+        "server": "https://github.com/Developer-Barsha/fruits-corner-server",
+        "client": "https://github.com/Developer-Barsha/fruits-corner-client",
+        "link": "https://fruits-corner.netlify.app/"
+    }
+]

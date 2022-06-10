@@ -1,5 +1,6 @@
 import React from 'react';
-import './Navbar.css'
+import {Link} from 'react-router-dom'
+import './Navbar.css';
 
 const Navbar = ({ setTheme }) => {
     const themeToggle = () => {
@@ -19,7 +20,7 @@ const Navbar = ({ setTheme }) => {
     };
 
     const menu = <>
-        <li><a href='#intro'>Home</a></li>
+        <li> <Link to='/'>Home</Link></li>
         <li><a href='#about'>About</a></li>
         <li><a href='#portfolio'>Portfolio</a></li>
         <li><a href='#skills'>Skills</a></li>
@@ -55,9 +56,6 @@ const Navbar = ({ setTheme }) => {
                         {menu}
                     </ul>
                 </div>
-                {/* <div className="navbar-end">
-                    <a href="#contact" className='btn btn-secondary text-white'>Contact</a>
-                </div> */}
             </div>
         </div>
     );

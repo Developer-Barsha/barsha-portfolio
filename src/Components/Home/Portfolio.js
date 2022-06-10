@@ -1,20 +1,26 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './Portfolio.css'
 
 const Portfolio = ({ portfolio }) => {
+    const navigate = useNavigate();
+
     return (
-        <div className='portfolio bg-white flex text-neutral relative flex-col gap-3 shadow-xl justify-center px-5 rounded-lg border'>
+        <div className='portfolio h-60 bg-white flex text-neutral relative flex-col gap-3 shadow-xl justify-center px-5 rounded-lg border py-2'>
             <img className='rounded-lg mt-2 delay-200 hover:scale-105' src={portfolio.image} alt="" />
             <h1 className="text-2xl font-bold text-primary">{portfolio?.name}
-                <div className="badge badge-secondary ml-3"><a href={portfolio?.link} target='blank'>Live Site</a></div>
-                </h1>
-            <p>{portfolio?.tools}</p>
-            <button className='text-left text-2xl text-white'><i className="fa-solid fa-angles-right"></i></button>
+            </h1>
 
-            <div className='relative'>
-            <div className='flex justify-end gap-2 absolute bottom-5 right-1'>
-                <div className="badge badge-outline"><a href={portfolio?.code || portfolio?.client} target='blank'>Code</a></div>
-                {portfolio?.server && <div className="badge badge-outline"><a href={portfolio?.server} target='blank'>Server</a></div>}
-            </div>
+            <div className='details'>
+                <div className='flex text-center gap-3 bg-white items-center justify-center w-full absolute bottom-0 left-0 h-60 rounded-lg' style={{transition:'0.5s'}}>
+                    <div className="badge badge-secondary w-10 h-10"><a href={portfolio?.link} target='blank' title='Livelink'><i className="fa-solid fa-link"></i></a></div>
+
+                    <div className="badge badge-info w-10 h-10"><a href={portfolio?.code || portfolio?.client} target='blank' title='Client/Code'><i className="fa-solid fa-code"></i></a></div>
+
+                    <div className="badge badge-warning w-10 h-10"><h1 target='blank' onClick={()=>navigate('/project/'+portfolio?.id)} title='Details'><i className="fa-solid fa-magnifying-glass"></i></h1></div>
+
+                    {portfolio?.server && <div className="badge badge-outline w-10 h-10"><a href={portfolio?.server} target='blank' title='Server'><i className="fa-solid fa-server"></i></a></div>}                    
+                </div>
             </div>
         </div>
     );

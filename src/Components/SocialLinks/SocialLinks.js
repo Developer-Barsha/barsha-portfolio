@@ -22,7 +22,7 @@ const SocialLinks = () => {
             </div>
 
             <div className="fixed flex justify-center items-center bottom-2 right-6 text-center text-2xl w-10 h-10 text-white py-2 px-3 bg-primary mb-3 rounded-full">
-                <a href="#intro"><i class="fa-solid fa-circle-arrow-up"></i></a>
+                <a href="#intro"><i className="fa-solid fa-circle-arrow-up"></i></a>
             </div>
         </div>
     );
