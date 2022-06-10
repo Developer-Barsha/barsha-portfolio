@@ -13,7 +13,7 @@ function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme'));
 
   return (
-    <div className='App' data-theme={theme}>
+    <div data-theme={theme} className='App overflow-hidden'>
       <ToastContainer />
       <Navbar setTheme={setTheme} />
       <Routes>

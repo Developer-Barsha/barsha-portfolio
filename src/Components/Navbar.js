@@ -40,7 +40,7 @@ const Navbar = ({ setTheme }) => {
 
     return (
         <div className='relative' style={{ zIndex: 1000 }}>
-            <div className={`navbar bg-accent ${localStorage.getItem('theme') === 'light' ? 'text-black' : 'text-white'} lg:px-16 px-3 fixed`}>
+            <div className={`navbar bg-accent ${localStorage.getItem('theme') === ('light'||null) &&'text-black'} ${localStorage.getItem('theme') === 'dark' &&'text-white'} lg:px-16 px-3 fixed`}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex="0" className="btn btn-ghost lg:hidden">
