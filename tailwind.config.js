@@ -28,6 +28,26 @@ module.exports = {
           "error": "#FB7185",
         },
       },
+      // {
+      //   pink: {
+      //     "primary": "#8259ff",
+      //   },
+      // },
+      // {
+      //   yellow: {
+      //     "primary": "#ffbc3e",
+      //   },
+      // },
+      // {
+      //   blue: {
+      //     "primary": "#3f90fc",
+      //   },
+      // },
+      // {
+      //   green: {
+      //     "primary": "#13db74",
+      //   },
+      // },
     ],
   },
   // dark: #0F172A

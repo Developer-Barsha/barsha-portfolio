@@ -2,7 +2,7 @@ import React from 'react';
 
 const Portfolio = ({ portfolio }) => {
     return (
-        <div className='portfolio bg-white flex relative flex-col gap-3 shadow-xl justify-center px-5 rounded-lg border'>
+        <div className='portfolio bg-white flex text-neutral relative flex-col gap-3 shadow-xl justify-center px-5 rounded-lg border'>
             <img className='rounded-lg mt-2 delay-200 hover:scale-105' src={portfolio.image} alt="" />
             <h1 className="text-2xl font-bold text-primary">{portfolio?.name}
                 <div className="badge badge-secondary ml-3"><a href={portfolio?.link} target='blank'>Live Site</a></div>

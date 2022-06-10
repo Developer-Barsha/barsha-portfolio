@@ -1,16 +1,19 @@
 import React from 'react';
+import './Navbar.css'
 
-const Navbar = () => {
-
+const Navbar = ({setTheme}) => {
     const themeToggle = () => {
         if (localStorage.getItem('theme') === null) {
             localStorage.setItem('theme', "dark");
+            setTheme(localStorage.getItem('theme'));
         }
         else if (localStorage.getItem('theme') === "light") {
             localStorage.setItem('theme', "dark");
-        } 
+            setTheme(localStorage.getItem('theme'));
+        }
         else {
             localStorage.setItem('theme', "light");
+            setTheme(localStorage.getItem('theme'));
         }
         console.log(localStorage.getItem('theme'));
     };
@@ -22,6 +25,19 @@ const Navbar = () => {
         <li><a href='#skills'>Skills</a></li>
         <li><a href='#services'>Services</a></li>
         <li><a href='#gallery'>Gallery</a></li>
+        {/* <li tabindex="0">
+            <a>
+            <i class="text-2xl fa-solid fa-brush"></i>
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+            </a>
+            <ul class="p-2 bg-base-100">
+                <li><input type="radio" onClick={()=>localStorage.setItem('theme','light')} name="radio-2" class="radio radio-primary" /></li>
+                <li><input type="radio" onClick={()=>localStorage.setItem('theme','pink')} name="radio-2" class="radio radio-primary" /></li>
+                <li><input type="radio" onClick={()=>localStorage.setItem('theme','yellow')} name="radio-2" class="radio radio-secondary" /></li>
+                <li><input type="radio" onClick={()=>localStorage.setItem('theme','blue')} name="radio-2" class="radio radio-warning" /></li>
+                <li><input type="radio" onClick={()=>localStorage.setItem('theme','green')} name="radio-2" class="radio radio-error" /></li>
+            </ul>
+        </li> */}
         <li>
             <label className="swap swap-rotate">
                 <input type="checkbox" onClick={themeToggle} />
