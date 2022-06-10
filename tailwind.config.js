@@ -5,8 +5,8 @@ module.exports = {
       {
         light: {
           "primary": "#7a77ff",
-          "secondary": "#FFC000",
-          "accent": "#0F172A",
+          "secondary": "#f73696",
+          "accent": "#fefefe",
           "neutral": "#081423",
           "base-100": "#FFFFFF",
           "info": "#98A8DD",
@@ -18,8 +18,8 @@ module.exports = {
       {
         dark: {
           "primary": "#7a77ff",
-          "secondary": "#FDE68A",
-          "accent": "#0F172A",
+          "secondary": "#ffce5b",
+          "accent": "#1E293B",
           "neutral": "#081423",
           "base-100": "#1F2937",
           "info": "#98A8DD",
@@ -28,31 +28,17 @@ module.exports = {
           "error": "#FB7185",
         },
       },
-      // {
-      //   pink: {
-      //     "primary": "#8259ff",
-      //   },
-      // },
-      // {
-      //   yellow: {
-      //     "primary": "#ffbc3e",
-      //   },
-      // },
-      // {
-      //   blue: {
-      //     "primary": "#3f90fc",
-      //   },
-      // },
-      // {
-      //   green: {
-      //     "primary": "#13db74",
-      //   },
-      // },
     ],
   },
-  // dark: #0F172A
-  // light: #1E293B
-  // lighter: #334155 
+  // darkest: #0F172A
+  // darker: #1E293B
+  // dark: #334155 
+
+  // yellow deep : #FDC538
+  // yellow bright: #ffce5b
+
+  // pink deep : #f73696
+  // pink bright: #f959a7
   theme: {
     extend: {},
   },

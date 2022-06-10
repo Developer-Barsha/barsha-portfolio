@@ -25,19 +25,6 @@ const Navbar = ({setTheme}) => {
         <li><a href='#skills'>Skills</a></li>
         <li><a href='#services'>Services</a></li>
         <li><a href='#gallery'>Gallery</a></li>
-        {/* <li tabindex="0">
-            <a>
-            <i class="text-2xl fa-solid fa-brush"></i>
-                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
-            </a>
-            <ul class="p-2 bg-base-100">
-                <li><input type="radio" onClick={()=>localStorage.setItem('theme','light')} name="radio-2" class="radio radio-primary" /></li>
-                <li><input type="radio" onClick={()=>localStorage.setItem('theme','pink')} name="radio-2" class="radio radio-primary" /></li>
-                <li><input type="radio" onClick={()=>localStorage.setItem('theme','yellow')} name="radio-2" class="radio radio-secondary" /></li>
-                <li><input type="radio" onClick={()=>localStorage.setItem('theme','blue')} name="radio-2" class="radio radio-warning" /></li>
-                <li><input type="radio" onClick={()=>localStorage.setItem('theme','green')} name="radio-2" class="radio radio-error" /></li>
-            </ul>
-        </li> */}
         <li>
             <label className="swap swap-rotate">
                 <input type="checkbox" onClick={themeToggle} />
@@ -50,7 +37,7 @@ const Navbar = ({setTheme}) => {
 
     return (
         <div className='relative' style={{ zIndex: 1000 }}>
-            <div className="navbar bg-white lg:px-16 px-3 fixed">
+            <div className={`navbar bg-accent ${localStorage.getItem('theme')==='light' ? 'text-black' : 'text-white'} font-semibold lg:px-16 px-3 fixed`}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex="0" className="btn btn-ghost lg:hidden">
