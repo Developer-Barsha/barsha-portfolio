@@ -20,14 +20,14 @@ const PortfolioDetail = () => {
             <h1 className='font-bold text-warning text-3xl pb-3'>Detail About: <span className='text-info'>{portfolio?.name}</span></h1>
             <div className='flex items-center gap-8 lg:flex-row flex-col w-full'>
                 <div className='w-full lg:w-1/2 flex flex-col gap-3'>
-                    <img className='rounded-lg mt-2 w-full border' src={portfolio?.image} alt="" />
+                    <img className='rounded-lg w-full border' src={portfolio?.image} alt="" />
                     <h1 className="text-2xl font-bold text-primary">{portfolio?.name} </h1>
                     <h1 className="font-bold text-secondary">{portfolio?.tools} </h1>
                     <h1>{portfolio?.description} </h1>
                 </div>
                 <div className='flex flex-col gap-3 w-full lg:w-1/2'>
                     <div className='h-96 border w-full rounded-lg overflow-y-auto hover:scroll-m-10'>
-                        <img className='rounded-lg mt-2 w-full' src={portfolio?.full} alt="" />
+                        <img className='rounded-lg w-full' src={portfolio?.full} alt="" />
                     </div>
                     <h1 className="text-secondary">Scroll down to see full site!</h1>
                     <div className='flex gap-3' style={{ transition: '0.5s' }}>

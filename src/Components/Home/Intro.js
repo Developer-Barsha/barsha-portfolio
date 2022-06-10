@@ -12,7 +12,7 @@ const Intro = () => {
                 <h1 className='text-xl font-bold'>WELCOME TO MY WORLD!</h1>
                 <h3 className="text-3xl py-3">I'm a <span className='text-primary'>Front-end Developer</span></h3>
                 <SocialLinks />
-                <p className='text-justify' data-aos="fade-left">Hello there! I am a front-end web developer. As a passionate developer, I love to learn & explore new features of websites. I am a fast learner and a hard-working person who has been doing development for over a year. My goal is to become an awesome web developer.</p>
+                <p className='text-justify'>Hello there! I am a front-end web developer. As a passionate developer, I love to learn & explore new features of websites. I am a fast learner and a hard-working person who has been doing development for over a year. My goal is to become an awesome web developer.</p>
 
                 <div className='flex gap-5'>
                     <a href='#about' className="mt-5 button-link bg-secondary my-btn uppercase text-white font-bold text-center">About me</a>

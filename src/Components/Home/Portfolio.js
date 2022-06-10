@@ -6,7 +6,7 @@ const Portfolio = ({ portfolio }) => {
     const navigate = useNavigate();
 
     return (
-        <div className='portfolio h-60 bg-white flex text-neutral relative flex-col gap-3 shadow-xl justify-center px-5 rounded-lg border py-2'>
+        <div className='portfolio h-64 bg-white flex text-neutral relative flex-col gap-3 shadow-xl justify-center px-5 rounded-lg border py-2'>
             <img className='rounded-lg mt-2 delay-200 hover:scale-105' src={portfolio.image} alt="" />
             <h1 className="text-2xl font-bold text-primary">{portfolio?.name}
             </h1>
