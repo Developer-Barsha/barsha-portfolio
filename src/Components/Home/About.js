@@ -22,7 +22,7 @@ const About = () => {
                             <p>Experience</p>
                         </div>
                     </div>
-                    <a href='#about' className="mt-5 button-link bg-secondary my-btn uppercase text-white font-bold text-center">My Skills</a>
+                    <a href='#skills' className="mt-5 button-link bg-secondary my-btn uppercase text-white font-bold text-center">My Skills</a>
                 </div>
             </div>
         </section>
