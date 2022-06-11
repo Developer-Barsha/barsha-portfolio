@@ -22,9 +22,9 @@ const Navbar = ({ setTheme }) => {
     const menu = <>
         <li> <Link to='/'>Home</Link></li>
         <li><a href='#about'>About</a></li>
-        <li><a href='#portfolio'>Portfolio</a></li>
         <li><a href='#skills'>Skills</a></li>
         <li><a href='#services'>Services</a></li>
+        <li><a href='#portfolio'>Portfolio</a></li>
         <li><a href='#gallery'>Gallery</a></li>
         <li><Link to='/blogs'>Blogs</Link></li>
         <a href="#contact" className='bg-secondary flex items-center justify-center px-2 rounded-lg hover:bg-primary my-2 text-white'>Contact</a>

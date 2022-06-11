@@ -3,7 +3,7 @@ import './Gallery.css'
 
 const Gallery = () => {
     return (
-        <section id='gallery'>
+        <section id='gallery' className='py-8'>
             <h1 className="text-4xl text-center font-bold mt-12 mb-6">Photo Gallery</h1>
 
             <div className='flex galleries justify-center gap-3 px-5'>
