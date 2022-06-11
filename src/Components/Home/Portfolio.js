@@ -7,12 +7,12 @@ const Portfolio = ({ portfolio }) => {
 
     return (
         <div className='portfolio h-64 bg-white flex text-neutral relative flex-col gap-3 shadow-xl justify-center px-5 rounded-lg border py-2'>
-            <img className='rounded-lg mt-2 delay-200 hover:scale-105' src={portfolio.image} alt="" />
+            <img className='rounded-lg mt-2 w-full h-40' src={portfolio.image} alt="" />
             <h1 className="text-2xl font-bold text-primary">{portfolio?.name}
             </h1>
 
             <div className='details'>
-                <div className='flex text-center gap-3 bg-white items-center justify-center w-full absolute bottom-0 left-0 h-60 rounded-lg' style={{transition:'0.5s'}}>
+                <div className='flex text-center gap-3 bg-white items-center justify-center w-full absolute bottom-0 left-0 h-60 rounded-lg'>
                     <div className="badge badge-secondary w-10 h-10"><a href={portfolio?.link} target='blank' title='Livelink'><i className="fa-solid fa-link"></i></a></div>
 
                     <div className="badge badge-info w-10 h-10"><a href={portfolio?.code || portfolio?.client} target='blank' title='Client/Code'><i className="fa-solid fa-code"></i></a></div>

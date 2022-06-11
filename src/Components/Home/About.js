@@ -12,7 +12,17 @@ const About = () => {
                     <p className='font-bold text-primary'>VISIT MY PORTFOLIO & HIRE ME</p>
                     <h2 className="text-5xl font-bold text-secondary">About Me...</h2>
                     <p>A motivated junior front-end developer with curiosity of learning and exploring new languages and development tools, besides looking for a position in a growth-oriented company where I can use my skills to the advantage of the company while developing my own skills.</p>
-                    <a href="Barsha-Resume.pdf" download="Barsha-Resume.pdf" className="mt-3 button-link bg-secondary my-btn uppercase text-white font-bold text-center">Download CV</a>
+                    <div className='flex lg:flex-row flex-col gap-10 pt-2'>
+                        <div>
+                            <h1 className="text-2xl text-warning font-bold">12+</h1>
+                            <p>Projects done</p>
+                        </div>
+                        <div>
+                            <h1 className="text-2xl text-warning font-bold">1+ years</h1>
+                            <p>Experience</p>
+                        </div>
+                    </div>
+                    <a href='#about' className="mt-5 button-link bg-secondary my-btn uppercase text-white font-bold text-center">My Skills</a>
                 </div>
             </div>
         </section>

@@ -26,8 +26,8 @@ const PortfolioDetail = () => {
                     <h1>{portfolio?.description} </h1>
                 </div>
                 <div className='flex flex-col gap-3 w-full lg:w-1/2'>
-                    <div className='h-96 border w-full rounded-lg overflow-y-auto hover:scroll-m-10'>
-                        <img className='rounded-lg w-full' src={portfolio?.full} alt="" />
+                    <div className='h-96 w-full rounded-lg overflow-y-auto hover:scroll-m-10'>
+                        <img className='rounded-lg w-full border' src={portfolio?.full} alt="" />
                     </div>
                     <h1 className="text-secondary">Scroll down to see full site!</h1>
                     <div className='flex gap-3' style={{ transition: '0.5s' }}>
